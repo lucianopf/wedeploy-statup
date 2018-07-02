@@ -15,7 +15,7 @@ we deploy -p <project_name>
 
 ## Getting Started
 
-1 - Createa new project or select an existing one
+1 - Create a new project or select an existing one
 
 2 - After the deployment is complete click at open service of the `status-<project_name>.wedeploy.io`
 
