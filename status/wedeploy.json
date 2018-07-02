@@ -8,8 +8,8 @@
     "DB_USER": "root",
     "DB_PASS": "passw0rd",
     "DB_DATABASE": "status",
-    "NAME": "Status Checker",
-    "DESCRIPTION": "Status Checker"
+    "NAME": "Statup Wedeploy",
+    "DESCRIPTION": "Statup Wedeploy"
   },
   "volumes": {
     "app": "/app"
