@@ -1,6 +1,6 @@
 # Statup at Wedeploy
 
-This repo aims to provide an easy way to deploy Statup at wedeploy by:
+This repo aims to provide an easy way to deploy [Statup](https://github.com/hunterlong/statup) at [Wedeploy](https://wedeploy.com/) by:
 
 Pressing here:
 
