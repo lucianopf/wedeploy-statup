@@ -1,0 +1,18 @@
+{
+  "id": "status",
+  "image": "hunterlong/statup",
+  "port": 8080,
+  "env": {
+    "DB_CONN": "mysql",
+    "DB_HOST": "db",
+    "DB_USER": "root",
+    "DB_PASS": "passw0rd",
+    "DB_DATABASE": "status",
+    "NAME": "Status Checker",
+    "DESCRIPTION": "Status Checker"
+  },
+  "volumes": {
+    "app": "/app"
+  },
+  "dependencies": ["db"]
+}
