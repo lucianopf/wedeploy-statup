@@ -1,6 +1,6 @@
 {
   "id": "status",
-  "image": "hunterlong/statup",
+  "image": "hunterlong/statup:v0.28.8",
   "port": 8080,
   "env": {
     "DB_CONN": "mysql",
@@ -13,6 +13,9 @@
   },
   "volumes": {
     "app": "/app"
+  },
+  "healthCheck": {
+    "url": "localhost:8080"
   },
   "dependencies": ["db"]
 }
